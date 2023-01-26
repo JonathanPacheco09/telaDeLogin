@@ -1,0 +1,39 @@
+body {
+    background: #cccccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+    /*
+    margin: auto;
+    */
+}
+h1{
+    color: blue;
+}
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    margin-top: 30px;
+}
+.grid-login{
+    display: flex;
+    background-color: #bbbbbb;
+    height: 20px;
+    width: 50px;
+    margin-top: 30px;
+}
